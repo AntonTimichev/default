@@ -1,0 +1,14 @@
+@mixin font-settings($size: 14px, $line: 30px, $weight: normal) {
+  font-size: $size;
+  line-height: $line;
+  font-weight: $weight;
+}
+
+@mixin indent-zero {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin list-none {
+  list-style: none;
+}
